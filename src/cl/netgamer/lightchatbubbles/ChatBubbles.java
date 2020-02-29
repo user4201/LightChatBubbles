@@ -33,7 +33,7 @@ public class ChatBubbles
 		// calculate bubble duration, 1200 = ticks per minute, to convert readSpeed to ticks
 		int duration = (chat.length()+(handicapChars*chatLines.length))*1200/readSpeed;
 		Location spawnPoint = player.getLocation();
-		spawnPoint.setY(-1);
+		spawnPoint.setY(-2);
 		
 		// spawn name tags from bottom to top
 		Entity vehicle = player;
